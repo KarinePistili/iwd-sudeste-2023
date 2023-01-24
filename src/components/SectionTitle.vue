@@ -9,7 +9,7 @@ defineProps({
 
 <template>
   <div class="section-title">
-    <h2>{{ text }}</h2>
+    <h1>{{ text }}</h1>
     <img src="@/assets/line.jpg" />
   </div>
 </template>

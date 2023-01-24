@@ -1,7 +1,7 @@
 <template>
   <section>
     <img src="@/assets/sticker-dare-to-be.gif" width="204" height="97" />
-    <p>
+    <p class="content">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -16,5 +16,9 @@
 <style scoped>
 section {
   gap: 32px;
+}
+
+.content {
+  font-size: 1.1rem;
 }
 </style>

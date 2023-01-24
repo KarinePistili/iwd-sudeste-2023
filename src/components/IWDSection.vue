@@ -5,7 +5,7 @@ import Title from "./SectionTitle.vue";
 <template>
   <section>
     <Title text="O que é IWD?" />
-    <p>
+    <p class="content">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -16,3 +16,9 @@ import Title from "./SectionTitle.vue";
     </p>
   </section>
 </template>
+
+<style scoped>
+.content {
+  font-size: 1.1rem;
+}
+</style>

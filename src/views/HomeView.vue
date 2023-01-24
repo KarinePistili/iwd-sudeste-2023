@@ -13,7 +13,7 @@ import OrganizersSection from "../components/OrganizersSection.vue";
   <main>
     <IWDSection />
     <DareToBeSection />
-    <SubscriptionButton />
+    <!-- <SubscriptionButton /> -->
     <SpeakersSection />
     <AgendaSection />
     <LocationSection />
