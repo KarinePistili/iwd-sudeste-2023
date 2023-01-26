@@ -1,20 +1,21 @@
 <script setup>
 import { RouterView } from "vue-router";
+import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <header>
-    <img class="logo" src="@/assets/web-banner.png" alt="Banner IWD 2023" />
-    <h1 class="saveTheDateTitle">25 de março, 2023</h1>
-    <h3 class="saveTheDateSubtitle">Presencial & Virtual</h3>
-    <strong class="saveTheDatePlace">Google São Paulo | 13:00 - 18:00</strong>
-  </header>
+  <v-app>
+    <header>
+      <img class="logo" src="@/assets/web-banner.png" alt="Banner IWD 2023" />
+      <h1 class="saveTheDateTitle">25 de março, 2023</h1>
+      <h3 class="saveTheDateSubtitle">Presencial & Virtual</h3>
+      <strong class="saveTheDatePlace">Google São Paulo | 13:00 - 18:00</strong>
+    </header>
 
-  <RouterView />
+    <RouterView />
 
-  <footer>
-    <img class="img" src="@/assets/sticker-event.gif" alt="Social Gif IWD 2023" />
-  </footer>
+    <Footer />
+  </v-app>
 </template>
 
 <style scoped>
