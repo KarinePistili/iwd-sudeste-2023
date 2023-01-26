@@ -9,7 +9,7 @@ import Footer from "./components/Footer.vue";
       <img class="logo" src="@/assets/web-banner.png" alt="Banner IWD 2023" />
       <h1 class="saveTheDateTitle">25 de março, 2023</h1>
       <h3 class="saveTheDateSubtitle">Presencial & Virtual</h3>
-      <strong class="saveTheDatePlace">Google São Paulo | 13:00 - 18:00</strong>
+      <strong class="saveTheDatePlace">São Paulo | 13:00 - 18:00</strong>
     </header>
 
     <RouterView />

@@ -7,7 +7,7 @@ import Title from "./SectionTitle.vue";
     <Title text="Data e Local" />
     <span class="date"><strong>25 de Março</strong></span>
     <span class="location">
-      <strong>Google SP | 13:00 - 18:00</strong>
+      <strong>São Paulo | 13:00 - 18:00</strong>
     </span>
   </section>
 </template>
