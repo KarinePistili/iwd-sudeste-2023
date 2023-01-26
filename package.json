@@ -12,7 +12,8 @@
     "@coreui/coreui": "^4.2.6",
     "@coreui/vue": "^4.6.0",
     "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+    "vue-router": "^4.1.6",
+    "vuetify": "^3.1.2"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.4",
