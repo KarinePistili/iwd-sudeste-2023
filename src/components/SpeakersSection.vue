@@ -39,4 +39,10 @@ import Title from "./SectionTitle.vue";
 .carousel {
   width: 343.2px !important;
 }
+
+@media (min-width: 769px) {
+  .carousel {
+    width: 450px !important;
+  }
+}
 </style>

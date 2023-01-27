@@ -1,7 +1,7 @@
 <template>
   <section>
     <Title text="#DareToBe" />
-    <v-row style="width: 100vw" justify="center" align="center">
+    <v-row style="width: 100%" justify="center" align="center">
       <v-col cols="12" lg="6" md="6" sm="6" xs="12">
         <v-img :src="dareToBeSticker" class="align-end" height="200px"> </v-img>
       </v-col>
@@ -46,11 +46,6 @@ export default {
 @media (max-width: 600px) {
   .content {
     text-align: center;
-  }
-}
-@media (min-width: 601px) {
-  .content {
-    text-align: end;
   }
 }
 
