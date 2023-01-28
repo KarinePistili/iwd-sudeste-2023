@@ -56,6 +56,15 @@ export default {
       </a>
       <a
         class="organizer"
+        href="https://www.linkedin.com/in/isabella-soares-lima/"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/Isabella Lima.jpg" />
+        <span class="name">Isabella Lima</span>
+        <span class="location">WTM Sorocaba</span>
+      </a>
+      <a
+        class="organizer"
         href="https://www.linkedin.com/in/julianaconde/"
         target="_blank"
       >
@@ -65,12 +74,30 @@ export default {
       </a>
       <a
         class="organizer"
+        href="https://www.linkedin.com/in/karine-pistili/"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/Karine Pistili.jpg" />
+        <span class="name">Karine Pistili</span>
+        <span class="location">WTM & GDG Sorocaba</span>
+      </a>
+      <a
+        class="organizer"
         href="https://www.linkedin.com/in/leticialmoreira/"
         target="_blank"
       >
         <img src="@/assets/organizers/Leticia Moreira.jpg" />
         <span class="name">Letícia Moreira</span>
         <span class="location">WTM & GDG BH</span>
+      </a>
+      <a
+        class="organizer"
+        href="https://www.linkedin.com/in/maizalouise/"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/Maiza Louise.jpg" />
+        <span class="name">Maiza Louise</span>
+        <span class="location">GDG Bauru</span>
       </a>
       <a
         class="organizer"
