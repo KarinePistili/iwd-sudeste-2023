@@ -13,7 +13,6 @@ import OrganizersSection from "../components/OrganizersSection.vue";
   <main>
     <v-container>
       <IWDSection />
-      <!-- <img class="line" src="@/assets/line.jpg" /> -->
       <DareToBeSection />
       <!-- <SubscriptionButton /> -->
       <SpeakersSection />

@@ -1,5 +1,19 @@
 <script setup>
 import Title from "./SectionTitle.vue";
+import instagramIcon from "../assets/instagram.png";
+</script>
+
+<script>
+export default {
+  data: () => ({
+    instagramIcon,
+  }),
+  methods: {
+    goTo(url) {
+      window.open(url);
+    },
+  },
+};
 </script>
 
 <template>
@@ -25,11 +39,23 @@ import Title from "./SectionTitle.vue";
     <p class="content">
       Siga nossas redes sociais para informações dos eventos que virão!
     </p>
+
+    <div class="text-center">
+      <img height="50" :src="instagramIcon" />
+      <h4 class="url" @click="goTo('https://www.instagram.com/iwdsudeste/')">
+        @iwdsudeste
+      </h4>
+    </div>
   </section>
 </template>
 
 <style scoped>
 .content {
   font-size: 1.1rem;
+}
+.url {
+  margin-top: 10px;
+  color: var(--vt-c-blue);
+  cursor: pointer;
 }
 </style>
