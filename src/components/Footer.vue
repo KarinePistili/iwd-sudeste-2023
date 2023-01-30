@@ -36,12 +36,7 @@ import sticker from "../assets/sticker-event.gif";
 export default {
   data: () => ({
     sticker,
-     icons: [
-        'mdi-facebook',
-        'mdi-twitter',
-        'mdi-linkedin',
-        'mdi-instagram',
-      ],
+    icons: ["mdi-facebook", "mdi-twitter", "mdi-linkedin", "mdi-instagram"],
   }),
 };
 </script>
