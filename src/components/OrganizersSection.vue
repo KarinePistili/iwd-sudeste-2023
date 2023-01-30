@@ -23,7 +23,7 @@ export default {
         href="https://www.linkedin.com/in/alice-ribeiro-280812182/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Alice Ribeiro.jpg" />
+        <img src="@/assets/organizers/AliceRibeiro.jpg" />
         <span class="name">Alice Ribeiro</span>
         <span class="location">WTM & GDG Lavras</span>
       </a>
@@ -32,7 +32,7 @@ export default {
         href="https://www.linkedin.com/in/anacarolinabarbosasilva/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Ana Silva.jpg" />
+        <img src="@/assets/organizers/AnaSilva.jpg" />
         <span class="name">Ana Silva</span>
         <span class="location">WTM SBC</span>
       </a>
@@ -41,7 +41,7 @@ export default {
         href="https://www.linkedin.com/in/aryelccapelo"
         target="_blank"
       >
-        <img src="@/assets/organizers/Aryel Capelo.jpg" />
+        <img src="@/assets/organizers/AryelCapelo.jpg" />
         <span class="name">Aryel Capelo</span>
         <span class="location">WTM & GDG SJC</span>
       </a>
@@ -50,7 +50,7 @@ export default {
         href="https://www.linkedin.com/in/fabicanedo/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Fabi Canedo Yugar.jpg" />
+        <img src="@/assets/organizers/FabiCanedoYugar.jpg" />
         <span class="name">Fabí Canedo</span>
         <span class="location">WTM SP</span>
       </a>
@@ -59,7 +59,7 @@ export default {
         href="https://www.linkedin.com/in/fernandacosta-tech"
         target="_blank"
       >
-        <img src="@/assets/organizers/Fernanda Costa.jpg" />
+        <img src="@/assets/organizers/FernandaCosta.jpg" />
         <span class="name">Fernanda Costa</span>
         <span class="location">WTM SP</span>
       </a>
@@ -68,7 +68,7 @@ export default {
         href="https://www.linkedin.com/in/fehrezende/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Fernanda Rezende.jpg" />
+        <img src="@/assets/organizers/FernandaRezende.jpg" />
         <span class="name">Fernanda Rezende</span>
         <span class="location">WTM & GDG BH</span>
       </a>
@@ -77,7 +77,7 @@ export default {
         href="https://www.linkedin.com/in/isabella-soares-lima/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Isabella Lima.jpg" />
+        <img src="@/assets/organizers/IsabellaLima.jpg" />
         <span class="name">Isabella Lima</span>
         <span class="location">WTM Sorocaba</span>
       </a>
@@ -86,7 +86,7 @@ export default {
         href="https://www.linkedin.com/in/julianaconde/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Juliana Conde.jpg" />
+        <img src="@/assets/organizers/JulianaConde.jpg" />
         <span class="name">Juliana Conde</span>
         <span class="location">WTM Aparecida</span>
       </a>
@@ -95,7 +95,7 @@ export default {
         href="https://www.linkedin.com/in/karine-pistili/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Karine Pistili.jpg" />
+        <img src="@/assets/organizers/KarinePistili.jpg" />
         <span class="name">Karine Pistili</span>
         <span class="location">WTM & GDG Sorocaba</span>
       </a>
@@ -104,7 +104,7 @@ export default {
         href="https://www.linkedin.com/in/leticialmoreira/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Leticia Moreira.jpg" />
+        <img src="@/assets/organizers/LeticiaMoreira.jpg" />
         <span class="name">Letícia Moreira</span>
         <span class="location">WTM & GDG BH</span>
       </a>
@@ -113,7 +113,7 @@ export default {
         href="https://www.linkedin.com/in/maizalouise/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Maiza Louise.jpg" />
+        <img src="@/assets/organizers/MaizaLouise.jpg" />
         <span class="name">Maiza Louise</span>
         <span class="location">GDG Bauru</span>
       </a>
@@ -122,7 +122,7 @@ export default {
         href="https://www.linkedin.com/in/tcrsilva/"
         target="_blank"
       >
-        <img src="@/assets/organizers/Tais Silva.jpg" />
+        <img src="@/assets/organizers/TaisSilva.jpg" />
         <span class="name">Tais Silva</span>
         <span class="location">GDG & WTM Santos</span>
       </a>
