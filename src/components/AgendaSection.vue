@@ -7,7 +7,7 @@ import LectureComponent from "./LectureComponent.vue";
   <section>
     <Title text="Agenda" />
 
-    <LectureComponent
+    <!-- <LectureComponent
       time="12:00 - 14:00"
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua."
@@ -19,7 +19,8 @@ import LectureComponent from "./LectureComponent.vue";
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua."
       speaker="Speaker"
-    />
+    /> -->
+    <span>Em breve!</span>
   </section>
 </template>
 
@@ -51,5 +52,14 @@ import LectureComponent from "./LectureComponent.vue";
 img {
   height: 4px;
   width: 100%;
+}
+
+span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+section {
+  margin-top: 60px;
 }
 </style>

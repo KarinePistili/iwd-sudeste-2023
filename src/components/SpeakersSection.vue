@@ -4,10 +4,10 @@ import Title from "./SectionTitle.vue";
 </script>
 
 <template>
-  <section>
+  <section class="mt-14">
     <Title text="Palestrantes" />
 
-    <CCarousel controls transition="crossfade">
+    <!-- <CCarousel controls transition="crossfade">
       <CCarouselItem>
         <div class="d-flex justify-content-center">
           <img class="w-50" src="@/assets/speaker.svg" alt="slide 1" />
@@ -23,7 +23,8 @@ import Title from "./SectionTitle.vue";
           <img class="w-50" src="@/assets/speaker.svg" alt="slide 1" />
         </div>
       </CCarouselItem>
-    </CCarousel>
+    </CCarousel> -->
+    <span>Em breve!</span>
   </section>
 </template>
 
@@ -40,9 +41,18 @@ import Title from "./SectionTitle.vue";
   width: 343.2px !important;
 }
 
+span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
 @media (min-width: 769px) {
   .carousel {
     width: 450px !important;
+  }
+
+  span {
+    margin-top: 20px;
   }
 }
 </style>
