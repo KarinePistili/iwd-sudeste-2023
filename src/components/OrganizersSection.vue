@@ -124,7 +124,7 @@ export default {
       >
         <img src="@/assets/organizers/Tais Silva.jpg" />
         <span class="name">Tais Silva</span>
-        <span class="location">WTM Santos</span>
+        <span class="location">GDG & WTM Santos</span>
       </a>
     </div>
 
