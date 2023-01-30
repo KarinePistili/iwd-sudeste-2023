@@ -21,4 +21,8 @@ import Title from "./SectionTitle.vue";
   font-size: 0.875rem;
   color: var(--vt-c-blue);
 }
+
+section {
+  margin-top: 60px;
+}
 </style>

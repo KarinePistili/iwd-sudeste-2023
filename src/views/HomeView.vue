@@ -20,7 +20,7 @@ import OrganizersSection from "../components/OrganizersSection.vue";
       <AgendaSection />
       <LocationSection />
       <!-- <SubscriptionButton /> -->
-      <SponsorsSection class="mt-12" />
+      <SponsorsSection />
       <OrganizersSection />
     </v-container>
   </main>

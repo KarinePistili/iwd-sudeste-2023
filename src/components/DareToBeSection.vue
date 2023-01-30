@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="mt-14">
     <Title text="#DareToBe" />
     <v-row style="width: 100%" justify="center" align="center">
       <v-col cols="12" lg="6" md="6" sm="6" xs="12">
@@ -8,15 +8,31 @@
       <v-col cols="12" lg="6" md="6" sm="6" xs="12">
         <v-card flat>
           <v-row justify="center">
-            <v-col cols="9">
+            <v-col>
               <p class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                No Dia Internacional das Mulheres, celebramos as mulheres que
+                ousam ser fortes, resilientes e inovadoras. Essas que são
+                exemplos de coragem e determinação, que enfrentam desafios e
+                superam obstáculos diários para alcançar seus objetivos e
+                realizar seus sonhos.
+              </p>
+              <p class="content">
+                Ainda que tudo pareça impossível, mulheres tem a Força para se
+                levantar quando caem, são Resilientes para persistirem lutando,
+                e são Inovadoras e capazes de encontrar esperança e
+                oportunidades mesmo em meio à adversidade. Qualidades essas que
+                são essenciais para um mundo onde ainda enfrentamos muitas
+                desigualdades e barreiras.
+              </p>
+              <p class="content">
+                Mulheres ao "ousarem ser" mostram ao mundo que vencem qualquer
+                desafio. Assim como Ada Lovelace, Grace Hopper, Katherine
+                Johnson, Roberta Andrade, e muitas outras. Vamos continuar a
+                celebrar as mulheres #daretobe e inspirar as próximas gerações a
+                seguir seus exemplos e construir novos caminhos.
+              </p>
+              <p class="content">
+                <strong>Juntas, transformamos tudo.</strong>
               </p>
             </v-col>
           </v-row>
@@ -43,14 +59,16 @@ export default {
 </script>
 
 <style scoped>
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .content {
     text-align: center;
   }
 }
 
-section {
-  gap: 32px;
+@media (min-width: 769px) {
+  section {
+    gap: 32px;
+  }
 }
 
 .content {
