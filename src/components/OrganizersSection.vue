@@ -20,6 +20,15 @@ export default {
     <div class="organizers mt-12">
       <a
         class="organizer"
+        href="https://www.linkedin.com/in/alice-ribeiro-280812182/"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/Alice Ribeiro.jpg" />
+        <span class="name">Alice Ribeiro</span>
+        <span class="location">WTM & GDG Lavras</span>
+      </a>
+      <a
+        class="organizer"
         href="https://www.linkedin.com/in/anacarolinabarbosasilva/"
         target="_blank"
       >
@@ -43,6 +52,15 @@ export default {
       >
         <img src="@/assets/organizers/Fabi Canedo Yugar.jpg" />
         <span class="name">Fabí Canedo</span>
+        <span class="location">WTM SP</span>
+      </a>
+      <a
+        class="organizer"
+        href="https://www.linkedin.com/in/fernandacosta-tech"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/Fernanda Costa.jpg" />
+        <span class="name">Fernanda Costa</span>
         <span class="location">WTM SP</span>
       </a>
       <a
@@ -131,6 +149,10 @@ section {
   margin-top: 40px;
 }
 
+span {
+  all: unset;
+}
+
 .organizers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -142,7 +164,7 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 0.5rem;
   margin: 0 auto;
