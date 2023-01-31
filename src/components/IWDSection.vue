@@ -1,12 +1,14 @@
 <script setup>
 import Title from "./SectionTitle.vue";
 import instagramIcon from "../assets/instagram.png";
+import linkedinIcon from "../assets/linkedin.png";
 </script>
 
 <script>
 export default {
   data: () => ({
     instagramIcon,
+    linkedinIcon,
   }),
   methods: {
     goTo(url) {
@@ -40,12 +42,28 @@ export default {
       Siga nossas redes sociais para informações dos eventos que virão!
     </p>
 
-    <div class="text-center">
-      <img height="50" :src="instagramIcon" />
-      <h4 class="url" @click="goTo('https://www.instagram.com/iwdsudeste/')">
-        @iwdsudeste
-      </h4>
-    </div>
+    <v-row>
+      <v-col>
+        <div
+          class="socialContainer"
+          @click="goTo('https://www.instagram.com/iwdsudeste/')"
+        >
+          <img height="50" :src="instagramIcon" />
+          <h4 class="url">@iwdsudeste</h4>
+        </div>
+      </v-col>
+      <v-col>
+        <div
+          class="socialContainer"
+          @click="
+            goTo('https://www.linkedin.com/company/women-techmakers-sudeste/')
+          "
+        >
+          <img height="50" :src="linkedinIcon" />
+          <h4 class="url">Women Techmakers Sudeste</h4>
+        </div>
+      </v-col>
+    </v-row>
   </section>
 </template>
 
@@ -53,9 +71,13 @@ export default {
 .content {
   font-size: 1.1rem;
 }
+.socialContainer {
+  text-align: center;
+  cursor: pointer;
+}
+
 .url {
   margin-top: 10px;
   color: var(--vt-c-blue);
-  cursor: pointer;
 }
 </style>
