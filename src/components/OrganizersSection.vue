@@ -95,7 +95,7 @@ export default {
         href="https://www.linkedin.com/in/karine-pistili/"
         target="_blank"
       >
-        <img src="@/assets/organizers/KarinePistili.jpg" />
+        <img src="@/assets/organizers/KarinePistili.png" />
         <span class="name">Karine Pistili</span>
         <span class="location">WTM & GDG Sorocaba</span>
       </a>
