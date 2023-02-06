@@ -7,6 +7,7 @@ import AgendaSection from "../components/AgendaSection.vue";
 import LocationSection from "../components/LocationSection.vue";
 import SponsorsSection from "../components/SponsorsSection.vue";
 import OrganizersSection from "../components/OrganizersSection.vue";
+import CallForPapersSection from "../components/CallForPapersSection.vue";
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import OrganizersSection from "../components/OrganizersSection.vue";
     <v-container>
       <IWDSection />
       <DareToBeSection />
+      <CallForPapersSection />
       <!-- <SubscriptionButton /> -->
       <SpeakersSection />
       <AgendaSection />
