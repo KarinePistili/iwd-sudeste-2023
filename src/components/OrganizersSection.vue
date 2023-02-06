@@ -74,6 +74,15 @@ export default {
       </a>
       <a
         class="organizer"
+        href="https://www.linkedin.com/in/gabuldev/"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/GabrielSavio.png" />
+        <span class="name">Gabriel Sávio</span>
+        <span class="location">GDG BH</span>
+      </a>
+      <a
+        class="organizer"
         href="https://www.linkedin.com/in/isabella-soares-lima/"
         target="_blank"
       >
