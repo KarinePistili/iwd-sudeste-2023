@@ -110,6 +110,15 @@ export default {
       </a>
       <a
         class="organizer"
+        href="https://www.linkedin.com/in/maisa-ceruti"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/MaisaCeruti.png" />
+        <span class="name">Maísa Ceruti</span>
+        <span class="location">WTM & GDG SJC</span>
+      </a>
+      <a
+        class="organizer"
         href="https://www.linkedin.com/in/maizalouise/"
         target="_blank"
       >
@@ -119,12 +128,30 @@ export default {
       </a>
       <a
         class="organizer"
+        href="https://www.linkedin.com/in/nicolerachid/"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/NicoleRachid.png" />
+        <span class="name">Nicole Rachid</span>
+        <span class="location">WTM SP</span>
+      </a>
+      <a
+        class="organizer"
         href="https://www.linkedin.com/in/tcrsilva/"
         target="_blank"
       >
         <img src="@/assets/organizers/TaisSilva.jpg" />
         <span class="name">Tais Silva</span>
         <span class="location">GDG & WTM Santos</span>
+      </a>
+      <a
+        class="organizer"
+        href="https://www.linkedin.com/in/victor-pugliese-1bb568168"
+        target="_blank"
+      >
+        <img src="@/assets/organizers/VictorPugliese.png" />
+        <span class="name">Victor Pugliese</span>
+        <span class="location">GDG Caraguatatuba</span>
       </a>
     </div>
 
