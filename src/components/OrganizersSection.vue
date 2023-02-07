@@ -61,7 +61,7 @@ export default {
       >
         <img src="@/assets/organizers/FernandaCosta.jpg" />
         <span class="name">Fernanda Costa</span>
-        <span class="location">WTM SP</span>
+        <span class="location">WTM & GDG Lavras</span>
       </a>
       <a
         class="organizer"
