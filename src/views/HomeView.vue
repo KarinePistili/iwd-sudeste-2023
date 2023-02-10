@@ -13,14 +13,13 @@ import CallForPapersSection from "../components/CallForPapersSection.vue";
 <template>
   <main>
     <v-container>
+      <SubscriptionButton />
       <IWDSection />
       <DareToBeSection />
       <CallForPapersSection />
-      <!-- <SubscriptionButton /> -->
       <SpeakersSection />
       <AgendaSection />
       <LocationSection />
-      <!-- <SubscriptionButton /> -->
       <SponsorsSection />
       <OrganizersSection />
     </v-container>

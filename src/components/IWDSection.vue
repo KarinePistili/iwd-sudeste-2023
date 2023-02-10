@@ -34,7 +34,7 @@ export default {
     </p>
 
     <p class="content">
-      Em 2022, nossa campanha #ProgressNotPerfection IWD alcançou mais de 132
+      Em 2022, nossa campanha <strong>#ProgressNotPerfection</strong> IWD alcançou mais de 132
       mil participantes em todo o mundo. Em 2023, nosso objetivo é superar este
       número!
     </p>
