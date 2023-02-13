@@ -6,26 +6,27 @@
         <v-row justify="center">
           <v-col>
             <p class="content">
-              <br>Nosso Call for Papers para o International Women's
-              Day Sudeste (IWD) está aberto! Você, mulher, quer ajudar a
-              incentivar e promover outras mulheres no mundo da tecnologia?
-              Então submeta sua palestra para a gente e nos ajude a fazer com
-              que este IWD seja sensacional! As palestras devem ser enviadas até
-              o dia <strong style="color:red">10/02</strong>
+              <br />Nosso Call for Papers para o International Women's Day
+              Sudeste (IWD) está aberto! Você, mulher, quer ajudar a incentivar
+              e promover outras mulheres no mundo da tecnologia? Então submeta
+              sua palestra para a gente e nos ajude a fazer com que este IWD
+              seja sensacional! As palestras devem ser enviadas até o dia
+              <strong style="color: red">10/02</strong>
             </p>
           </v-col>
         </v-row>
       </v-card>
     </v-row>
     <v-row>
-      <v-card
+      <h5 style="color: red">Submissões encerradas</h5>
+      <!-- <v-card
         class="pa-4"
         color="info"
         style="cursor: pointer"
         @click="goTo('https://forms.gle/qkvXoSnxyTw5iVVo7')"
       >
         <h5>Submeta sua proposta</h5>
-      </v-card>
+      </v-card> -->
     </v-row>
   </section>
 </template>
