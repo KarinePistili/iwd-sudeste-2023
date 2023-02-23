@@ -7,24 +7,44 @@ import Title from "./SectionTitle.vue";
   <section class="mt-14">
     <Title text="Palestrantes" />
 
-    <!-- <CCarousel controls transition="crossfade">
+    <CCarousel controls transition="crossfade">
       <CCarouselItem>
         <div class="d-flex justify-content-center">
-          <img class="w-50" src="@/assets/speaker.svg" alt="slide 1" />
+          <img
+            class="w-50"
+            src="@/assets/speakers/Giseli Anversa - Site.jpg"
+            alt="Giseli Anversa"
+          />
         </div>
       </CCarouselItem>
       <CCarouselItem>
         <div class="d-flex justify-content-center">
-          <img class="w-50" src="@/assets/speaker.svg" alt="slide 1" />
+          <img
+            class="w-50"
+            src="@/assets/speakers/Grazielle Silva Ribeiro - Site.jpg"
+            alt="Grazielle Silva Ribeiro"
+          />
         </div>
       </CCarouselItem>
       <CCarouselItem>
         <div class="d-flex justify-content-center">
-          <img class="w-50" src="@/assets/speaker.svg" alt="slide 1" />
+          <img
+            class="w-50"
+            src="@/assets/speakers/Jessica Fernandes de Oliveira - Site.jpg"
+            alt="Jessica Fernandes de Oliveira"
+          />
         </div>
       </CCarouselItem>
-    </CCarousel> -->
-    <span>Em breve!</span>
+      <CCarouselItem>
+        <div class="d-flex justify-content-center">
+          <img
+            class="w-50"
+            src="@/assets/speakers/Mariana Filleti - Site.jpg"
+            alt="Mariana Filleti"
+          />
+        </div>
+      </CCarouselItem>
+    </CCarousel>
   </section>
 </template>
 
