@@ -27,12 +27,8 @@ export default {
       em contato pelo e-mail <strong>iwdsudeste@gmail.com</strong>.
     </p>
     <p class="content">
-      Para o evento presencial serão <strong>OBRIGATÓRIOS</strong> os
-      <span style="color: red"
-        >comprovantes de vacinação da primeira e da segunda dose da vacina para
-        COVID-19</span
-      >
-      e <span style="color: red">documento de identidade com foto</span>.
+      Para o evento presencial será <strong>OBRIGATÓRIO</strong> apresentar o
+      <span style="color: red">documento de identidade com foto</span>.
     </p>
     <p class="content">
       As inscrições podem ser realizadas através do botão abaixo
