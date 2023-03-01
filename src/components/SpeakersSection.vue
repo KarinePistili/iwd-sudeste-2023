@@ -12,7 +12,7 @@ import Title from "./SectionTitle.vue";
         <div class="d-flex justify-content-center">
           <img
             class="w-50"
-            src="@/assets/speakers/Giseli Anversa - Site.jpg"
+            src="@/assets/speakers/GiseliAnversa-Site.jpg"
             alt="Giseli Anversa"
           />
         </div>
@@ -21,7 +21,7 @@ import Title from "./SectionTitle.vue";
         <div class="d-flex justify-content-center">
           <img
             class="w-50"
-            src="@/assets/speakers/Grazielle Silva Ribeiro - Site.jpg"
+            src="@/assets/speakers/GrazielleSilvaRibeiro-Site.jpg"
             alt="Grazielle Silva Ribeiro"
           />
         </div>
@@ -30,7 +30,7 @@ import Title from "./SectionTitle.vue";
         <div class="d-flex justify-content-center">
           <img
             class="w-50"
-            src="@/assets/speakers/Jessica Fernandes de Oliveira - Site.jpg"
+            src="@/assets/speakers/JessicaFernandesdeOliveira-Site.jpg"
             alt="Jessica Fernandes de Oliveira"
           />
         </div>
@@ -39,7 +39,7 @@ import Title from "./SectionTitle.vue";
         <div class="d-flex justify-content-center">
           <img
             class="w-50"
-            src="@/assets/speakers/Mariana Filleti - Site.jpg"
+            src="@/assets/speakers/MarianaFilleti-Site.jpg"
             alt="Mariana Filleti"
           />
         </div>
