@@ -9,6 +9,7 @@ import gabulDevLogo from "../assets/gabuldev-logo.png";
 import totvsLogo from "../assets/totvs-logo.png";
 import wtmLogo from "../assets/wtm-patrocinio-logo.png";
 import unimarLogo from "../assets/UnimarSJ-logo.svg";
+import fcamaraLogo from "../assets/fcamara-logo.png";
 </script>
 
 <script>
@@ -51,6 +52,10 @@ export default {
         src: unimarLogo,
         flex: 3,
       },
+      {
+        src: fcamaraLogo,
+        flex: 3,
+      },
     ],
   }),
 };
@@ -81,6 +86,31 @@ export default {
       </v-col>
     </v-row>
     <span class="cota">
+      <strong>Cota Bold</strong>
+    </span>
+    <v-row style="width: 100vw" class="pa-12 pt-3" justify="center">
+      <v-col cols="12" lg="3" md="4" sm="6" xs="12">
+        <v-card width="100%" class="px-5">
+          <v-img :src="nearSureLogo" class="align-end" height="200px"> </v-img>
+        </v-card>
+      </v-col>
+      <v-col cols="12" lg="3" md="4" sm="6" xs="12">
+        <v-card width="100%" class="px-5">
+          <v-img :src="cloudBedsLogo" class="align-end" height="200px"> </v-img>
+        </v-card>
+      </v-col>
+      <v-col cols="12" lg="3" md="4" sm="6" xs="12">
+        <v-card width="100%" class="px-5">
+          <v-img :src="totvsLogo" class="align-end" height="200px"> </v-img>
+        </v-card>
+      </v-col>
+      <v-col cols="12" lg="3" md="4" sm="6" xs="12">
+        <v-card width="100%" class="px-5">
+          <v-img :src="fcamaraLogo" class="align-end" height="200px"> </v-img>
+        </v-card>
+      </v-col>
+    </v-row>
+    <span class="cota">
       <strong>Cota Innovative</strong>
     </span>
     <v-row style="width: 100vw" class="pa-12 pt-3" justify="center">
@@ -98,26 +128,6 @@ export default {
       <v-col cols="12" lg="3" md="4" sm="6" xs="12">
         <v-card width="100%" class="px-5">
           <v-img :src="unimarLogo" class="align-end" height="200px"> </v-img>
-        </v-card>
-      </v-col>
-    </v-row>
-    <span class="cota">
-      <strong>Cota Bold</strong>
-    </span>
-    <v-row style="width: 100vw" class="pa-12 pt-3" justify="center">
-      <v-col cols="12" lg="3" md="4" sm="6" xs="12">
-        <v-card width="100%" class="px-5">
-          <v-img :src="nearSureLogo" class="align-end" height="200px"> </v-img>
-        </v-card>
-      </v-col>
-      <v-col cols="12" lg="3" md="4" sm="6" xs="12">
-        <v-card width="100%" class="px-5">
-          <v-img :src="cloudBedsLogo" class="align-end" height="200px"> </v-img>
-        </v-card>
-      </v-col>
-      <v-col cols="12" lg="3" md="4" sm="6" xs="12">
-        <v-card width="100%" class="px-5">
-          <v-img :src="totvsLogo" class="align-end" height="200px"> </v-img>
         </v-card>
       </v-col>
     </v-row>

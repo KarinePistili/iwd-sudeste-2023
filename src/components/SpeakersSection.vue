@@ -44,6 +44,24 @@ import Title from "./SectionTitle.vue";
           />
         </div>
       </CCarouselItem>
+      <CCarouselItem>
+        <div class="d-flex justify-content-center">
+          <img
+            class="w-50"
+            src="@/assets/speakers/DanielleTorres-Site.jpg"
+            alt="Danielle Torres"
+          />
+        </div>
+      </CCarouselItem>
+      <CCarouselItem>
+        <div class="d-flex justify-content-center">
+          <img
+            class="w-50"
+            src="@/assets/speakers/RobertaLingnaudeOliveira-Site.jpg"
+            alt="Roberta Lingnau de Oliveira"
+          />
+        </div>
+      </CCarouselItem>
     </CCarousel>
   </section>
 </template>
