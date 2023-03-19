@@ -62,6 +62,15 @@ import Title from "./SectionTitle.vue";
           />
         </div>
       </CCarouselItem>
+      <CCarouselItem>
+        <div class="d-flex justify-content-center">
+          <img
+            class="w-50"
+            src="@/assets/speakers/TainaraAlmeida-Site.jpg"
+            alt="Tainara Almeida"
+          />
+        </div>
+      </CCarouselItem>
     </CCarousel>
   </section>
 </template>
