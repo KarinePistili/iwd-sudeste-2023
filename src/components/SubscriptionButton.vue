@@ -15,7 +15,22 @@ export default {
 
 <template>
   <section>
-    <Title text="Inscrições Abertas!" />
+    <Title text="Assista nosso evento no YouTube!" />
+    <p class="content">
+      Não pôde acompanhar o nosso evento ou quer matar a saudade e assistir de
+      novo?
+    </p>
+    <p class="content">
+      <v-row justify="center" class="my-4">
+        <div
+          class="btn"
+          @click="goTo('https://www.youtube.com/watch?v=K3WwaD_cOtw')"
+        >
+          <h3>Assista no YouTube!</h3>
+        </div></v-row
+      >
+    </p>
+    <!-- <Title text="Inscrições Abertas!" />
     <p class="content">
       Estão <strong>ABERTAS AS INSCRIÇÕES</strong> para o IWD Sudeste 2023. Esse
       evento será realizado na <strong>Google São Paulo</strong>, no dia
@@ -44,7 +59,7 @@ export default {
       >
         <h3>Inscreva-se aqui!</h3>
       </div>
-    </v-row>
+    </v-row> -->
   </section>
 </template>
 
